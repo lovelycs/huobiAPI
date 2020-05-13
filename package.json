@@ -1,0 +1,39 @@
+{
+  "name": "huobi-api",
+  "version": "1.0.0",
+  "description": "huobi api javascript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lovelycs/huobiAPI.git"
+  },
+  "keywords": [
+    "huobi",
+    "api",
+    "js",
+    "javascript",
+    "nodejs",
+    "huobiAPI",
+    "typescript",
+    "Huobi",
+    "es6"
+  ],
+  "author": "lovelycs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lovelycs/huobiAPI/issues"
+  },
+  "homepage": "https://github.com/lovelycs/huobiAPI#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "crypto-js": "^4.0.0",
+    "moment": "^2.25.3"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.1",
+    "typescript": "^3.9.2"
+  }
+}
