@@ -2,7 +2,7 @@
   "name": "huobi-api",
   "version": "1.0.0",
   "description": "huobi api javascript",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc"
   },

@@ -13,6 +13,18 @@ enum STATUS {
   'ERROR' = 'error'
 }
 
+/**
+ * 火币API调用
+ *
+ * - accessKey: 必填, 通过火币官方申请 https://huobiapi.github.io/docs/spot/v1/cn/#185368440e
+ * - secretKey: 必填, 通过火币官方申请 https://huobiapi.github.io/docs/spot/v1/cn/#185368440e
+ * - proxy: 选填, 需要代理时填入, default false
+ * - hostname: 选填, 调用火币的hostname, default 'api.huobi.pro'
+ * - timeout: 选填, 接口调用超时时间, 单位ms, default 30000
+ * 
+ * @export
+ * @class HuobiRestAPI
+ */
 export class HuobiRestAPI {
   private accessKey: string;
   private secretKey: string;
@@ -28,7 +40,7 @@ export class HuobiRestAPI {
   constructor({ accessKey, secretKey, proxy = false, hostname = 'api.huobi.pro', timeout = 30000 }: {
     accessKey: string,
     secretKey: string,
-    proxy: {
+    proxy?: {
       host: string,
       port: number
     } | false,
