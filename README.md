@@ -15,7 +15,7 @@ const secretKey = 'your secretKey';
 
 // 假如需要代理
 // proxy: {
-//   host: 'http://127.0.0.1',
+//   host: '127.0.0.1',
 //   port: 1080
 // }
 const myHuobiRestAPI = new HuobiRestAPI({
